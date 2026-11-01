@@ -80,7 +80,7 @@ Min Heap [num, frequency]
   Space O(n)
  *
  * */
-public class top_k_frequent_elements_347 {
+public class TopKFrequentElements347 {
 
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> numMap = new HashMap<>();
